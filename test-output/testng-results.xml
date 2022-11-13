@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-13T12:26:55Z" name="Default suite" finished-at="2022-11-13T12:28:19Z" duration-ms="84017">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38604b81]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-13T12:26:55Z" name="Default test" finished-at="2022-11-13T12:28:19Z" duration-ms="84017">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="startAppium()[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:26:53Z" name="startAppium" finished-at="2022-11-13T12:26:55Z" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:26:55Z" name="setUpClass" finished-at="2022-11-13T12:26:55Z" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:26:55Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-13T12:27:12Z" duration-ms="16567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessibility]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:27:12Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-13T12:27:44Z" duration-ms="32483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Animation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:27:44Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-13T12:28:01Z" duration-ms="16930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:28:01Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-13T12:28:19Z" duration-ms="17588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Views Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="reprt()[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:28:19Z" name="reprt" finished-at="2022-11-13T12:28:19Z" duration-ms="14" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56)
+at runner.TestRunner.reprt(TestRunner.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reprt -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:28:19Z" name="tearDownClass" finished-at="2022-11-13T12:28:19Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopAppium()[pri:0, instance:runner.TestRunner@38604b81]" started-at="2022-11-13T12:28:19Z" name="stopAppium" finished-at="2022-11-13T12:28:19Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

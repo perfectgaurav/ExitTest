@@ -1,0 +1,35 @@
+Folders and Description:
+
+*src/main/java contains:
+->BaseClass: It contains baseclass and touchaction class which are used in whole project.
+->Screens: It contains all screens of all the testcases.
+->Utilities: All class of ExcelReader, Screenshot and appium server lies in this Package.
+
+*src/test/java:
+->Features: All the feature files of TestCases lies in this package.
+->Hooks:To implement predetermined scenarios this hooks files is used.
+->Runner: To Run project this runner will be used.
+->Stepdef:This contains all the stepdefinition.
+
+*Report: This package contains Report file of failed TestaCases.
+
+*Config.properties:This file contains TestData used in project.
+
+TO Run TESTCASES:
+
+-1: By Runner File
+
+-2: By testng.xml
+
+-3: By Batch File
+
+*Software used:
+->Java
+
+->Maven
+
+->Eclipse
+
+->Android Studio
+
+->Appium
