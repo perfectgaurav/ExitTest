@@ -1,0 +1,6 @@
+stepDefs\AnimationFeature_stepDef.class
+stepDefs\ViewsFeature_stepDef.class
+stepDefs\AccessibilityFeature_stepDef.class
+hooks\hook.class
+stepDefs\ContentFeature_stepDef.class
+runner\TestRunner.class

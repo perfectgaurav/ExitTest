@@ -1,0 +1,10 @@
+BaseClasses\touchActionClass.class
+BaseClasses\BaseClass.class
+Utilities\ExcelReader.class
+Screens\AppsFeatureScreen.class
+Screens\AnimationFeatureScreen.class
+Screens\ContentFeatureScreen.class
+Utilities\appiumServer.class
+Screens\ViewsFeatureScreen.class
+Screens\AccessibilityFeatureScreen.class
+Utilities\Screenshot.class

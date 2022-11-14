@@ -1,3 +1,4 @@
+
 Folders and Description:
 
 *src/main/java contains:
@@ -21,9 +22,25 @@ TO Run TESTCASES:
 
 -2: By testng.xml
 
--3: By Batch File
+-3: By (mvn clean test)
+
+Project is succesfully Integrated with Jenkins and
+all TestCases build are successfully running on jenkins.
+(Build Success ScreenShots are also attached in Project Folder)
+
+Steps of Jenkins Github Integration:
+
+Step 1: In Jenkins, click on ‘New Item’ to create a new project.
+Step 2: Give your project a name, then choose ‘Freestyle project’ and finally, click on ‘OK’
+Step 3: Click on the ‘Source Code Management’ tab.
+Step 4: Click on Git and paste your GitHub repository URL in the ‘Repository URL’ field.
+Step 5: Click on the ‘Build Triggers’ tab 
+Step 6: Click on the ‘Build’ tab,
+
+
 
 *Software used:
+
 ->Java
 
 ->Maven
